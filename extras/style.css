@@ -1,0 +1,332 @@
+a:link {
+    color: #FC4A1A;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FC4A1A;
+}
+
+a:hover {
+    color: #4ABDAC;
+}
+
+.accounts {
+    width: auto;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 0.9vw;
+    color: #FC4A1A;
+}
+
+button {
+    position: relative;
+    float: left;
+    border-color: #FFFFFF;
+    border-radius: 0.4vw;	
+    font-weight: 100;
+    width: 18.45vw;
+    background-color: #FC4A1A;
+    padding: 0.1vw;
+    color: #FFFFFF;
+    font-size: 0.7vw;
+    z-index: 3;
+    height: 2vw;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border: 0.05vw solid #FC4A1A;
+    background-color: #FFFFFF;
+    color: #FC4A1A;
+}
+
+canvas {
+    display: none;
+    position: relative;
+    width: 25vw;
+    height: 18vw;
+    z-index: 0;
+}
+
+.capture {
+    position: relative;
+    width: 35vw;
+    margin-top: 1.5vw;
+    z-index: 0;
+}
+
+.center-panel {
+    width: 80vw;
+    height: 30vw;
+    background-color: #FFFFFF;
+}
+
+.click:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.column {
+    float: left;
+    width: 26.5vw;
+    padding-bottom: 2vw;
+}
+
+.column-2 {
+    float: left;
+    width: 40vw;
+    padding-bottom: 2vw;
+}
+
+.column-5 {
+    float: left;
+    width: 10vw;
+    padding-bottom: 2vw;
+}
+
+.comments {
+    width: 100%;
+    color: #FC4A1A;
+    padding-left: 5vw;
+}
+
+.disabled {
+    color: #4ABDAC;
+    opacity: 0.4;
+}
+
+.dropdown {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 26vw;
+}
+
+.dropdown-content {
+    text-align: center;
+    display: none;
+    padding: 0;
+    margin:0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    color: #000000;
+    float: left;
+    font-family: monospace;
+    font-size: 0.7vw;
+}
+
+.frames {
+    position: relative;
+    align-content: center;
+    text-align: center;
+    width: 25vw;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+    color: #4ABDAC;
+    margin-top: 1vw;
+    font-size: 3vw;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 100;
+    color: #616060;
+    font-size: 1.2vw;
+}
+
+h3 {   
+    text-align: left;
+    font-weight: 100;
+    color: #606061;
+    font-size: 1vw;
+}
+
+h4 {
+    font-weight: 100;
+    text-align: center;
+    color: #FC4A1A;
+    font-size: 0.9vw;
+}
+
+h5 {
+    font-weight: 100;
+    opacity: 0.5;
+    color: #FC4A1A;
+    font-size: 0.8vw;
+    margin: 0;
+}
+
+h5:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+h6 {
+    position: relative;
+    font-weight: 100;
+    float: left;
+    opacity: 0.5;
+    color: #FC4A1A;
+    font-size: 0.7vw;
+    margin-left: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+h7 {
+    font-size: 7vw;
+    color: #FC4A1A;
+}
+
+input[type=text] {
+    vertical-align: middle;
+    width: 40vw;
+    height: 1.1vw;
+    margin: 0.2vw;
+}
+
+input[type=password] {
+    vertical-align: middle;
+    width: 40vw;
+    height: 1.1vw;
+    margin: 0.2vw;
+}
+
+input[type=submit] {
+    font-size: 0.7vw;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    color: #4ABDAC;
+    border-color: #4ABDAC;
+    border-radius: 0.3vw;
+}
+
+input[type=submit]:focus {
+    font-size: 0.7vw;
+    vertical-align: middle;
+    background-color: #4ABDAC;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+input[type=email] {
+    vertical-align: middle;
+    width: 40vw;
+    height: 1.1vw;
+    margin: 0.2vw;
+}
+
+input[type=file] {
+    font-size: 0.8vw;
+    vertical-align: middle;
+    color: #4ABDAC;
+}
+
+.landing  {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1vw;
+    color: #FC4A1A;
+    padding: 2vw;
+}
+
+.left-panel	{
+    float: left;
+    margin: 0;
+}
+
+.mainpage {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Verdana", sans-serif;
+}
+
+.menu {
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    display: table-cell;
+    padding: 2%;
+    font-size: 110%;
+}
+
+.mock-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 2;
+    margin-left: 5%;
+    width: 25vw;
+    height: 18.8vw;
+}
+
+.overlay {
+    position: relative;
+    display: none;
+    width: 35vw;
+    margin-top: 1.5vw;
+    z-index: 0;
+}
+
+.overlay-select-1 {
+    position: absolute;
+    margin-left: 0;
+    width: 20%;
+}
+
+.overlay-select-2 {
+    position: absolute;
+    margin-left: 31%;
+    width: 20%;
+}
+
+.pagination li {
+    position: absolute;
+    color: #4ABDAC;
+    display: inline;
+    font-size: 0.8vw;
+}
+
+.right-panel {
+    float: right;
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul.profile {
+    margin-bottom: 2vw;
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+}
+
+#video {
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 1;
+    margin-left: 5%;
+    width: 25vw;
+}
